@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  background-color: #6A097D;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #F1D4D4;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #000000;
+
+}
+
+footer {
+  color: #F1D4D4;
+  font-family: sans-serif;
+}
+
+.A {
+  background-image: url("drum1.png");
+}
+
+.S {
+  background-image: url("drum2.png");
+}
+
+.D {
+  background-image: url("drum3.png");
+}
+
+.F {
+  background-image: url("drum4.png");
+}
+
+.G {
+  background-image: url("drum5.png");
+}
+
+.H {
+  background-image: url("plate.png");
+}
+
+.J {
+  background-image: url("kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #F1D4D4;
+  opacity: 0.5;
+}
+
+.red {
+  color:#000000;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #000000;
+  text-shadow: 3px 0 #F1D4D4;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
